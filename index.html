@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">  
+</head>
+
+<body>
+  <div class="weather-box">
+  <div class="weather">
+    <h1>Today</h1>
+    <p>
+      <ul id="city"></ul>
+
+      <ul id="weather-icon" class="longShadow">
+      </ul>
+
+      <ul id="temp"></ul>
+
+      <ul id="tempalt"></ul>
+
+      <ul id="wind"></ul>
+
+      <button type="button" class="btn btn-primary" id="switch-temp" onclick="switchTemp();">°F / °C</button>
+  </div>
+</div>
+<div class="footer"> Code written by <a href="https://pe.linkedin.com/in/jorgerodriguezmartinez
+">Jorge Rodríguez</a></div>
+<script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js'></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
